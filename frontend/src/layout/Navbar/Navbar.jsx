@@ -12,7 +12,7 @@ export const Navbar = () => {
           <LinkButton text="Log In" to="login" />
         </li>
         <li>
-          <LinkButton text="Sign Up" to="signup" filled />
+          <LinkButton text="Sign Up" to="signup" filled="true" />
         </li>
       </NavList>
     </nav>

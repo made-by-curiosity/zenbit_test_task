@@ -1,8 +1,8 @@
 import { LinkBtn } from './LinkButton.styled';
 
-export const LinkButton = ({ text, to, ...props }) => {
+export const LinkButton = ({ text, to, filled, ...props }) => {
   return (
-    <LinkBtn to={to} {...props}>
+    <LinkBtn to={to} filled={filled} {...props}>
       {text}
     </LinkBtn>
   );
