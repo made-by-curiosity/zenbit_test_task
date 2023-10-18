@@ -6,11 +6,11 @@ import { Loading } from 'components/Loading/Loading';
 import { Header } from 'layout/Header/Header';
 
 export const Layout = () => {
+  const isLoggedIn = false;
+
   return (
     <>
-      <Header>
-        <Navbar />
-      </Header>
+      <Header>{isLoggedIn ? <button>Log Out</button> : <Navbar />}</Header>
 
       <Suspense fallback={<Loading text="Loading..." />}>
         <main>
