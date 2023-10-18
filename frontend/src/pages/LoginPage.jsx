@@ -1,7 +1,7 @@
 import { Container } from 'components/Container/Container';
 
-const SignInPage = () => {
+const LoginPage = () => {
   return <Container>LOGIN PAGE</Container>;
 };
 
-export default SignInPage;
+export default LoginPage;
