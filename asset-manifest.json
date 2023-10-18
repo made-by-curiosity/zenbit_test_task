@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/zenbit_test_task/static/css/main.28f5bfe0.css",
+    "main.js": "/zenbit_test_task/static/js/main.5c959da8.js",
+    "index.html": "/zenbit_test_task/index.html",
+    "main.28f5bfe0.css.map": "/zenbit_test_task/static/css/main.28f5bfe0.css.map",
+    "main.5c959da8.js.map": "/zenbit_test_task/static/js/main.5c959da8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28f5bfe0.css",
+    "static/js/main.5c959da8.js"
+  ]
+}
