@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/zenbit_test_task/static/css/main.f99cf2f7.css",
-    "main.js": "/zenbit_test_task/static/js/main.557262e7.js",
-    "static/js/983.79bdf650.chunk.js": "/zenbit_test_task/static/js/983.79bdf650.chunk.js",
+    "main.css": "/zenbit_test_task/static/css/main.cd7b0dcf.css",
+    "main.js": "/zenbit_test_task/static/js/main.13797ebd.js",
+    "static/js/648.109433ca.chunk.js": "/zenbit_test_task/static/js/648.109433ca.chunk.js",
     "static/js/637.feb2eb6e.chunk.js": "/zenbit_test_task/static/js/637.feb2eb6e.chunk.js",
     "static/js/235.ba34bf7c.chunk.js": "/zenbit_test_task/static/js/235.ba34bf7c.chunk.js",
+    "static/media/hero_bg.png": "/zenbit_test_task/static/media/hero_bg.661866f1813f90513b60.png",
     "static/media/Lato-Semibold.ttf": "/zenbit_test_task/static/media/Lato-Semibold.637ae3cbe5f4341bfb7b.ttf",
     "static/media/Merriweather-Bold.ttf": "/zenbit_test_task/static/media/Merriweather-Bold.ae39f743fdcf8f64531e.ttf",
     "static/media/Lato-Regular.ttf": "/zenbit_test_task/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
     "static/media/Lato-Bold.ttf": "/zenbit_test_task/static/media/Lato-Bold.636be8de934918e38ed9.ttf",
     "index.html": "/zenbit_test_task/index.html",
-    "main.f99cf2f7.css.map": "/zenbit_test_task/static/css/main.f99cf2f7.css.map",
-    "main.557262e7.js.map": "/zenbit_test_task/static/js/main.557262e7.js.map",
-    "983.79bdf650.chunk.js.map": "/zenbit_test_task/static/js/983.79bdf650.chunk.js.map",
+    "main.cd7b0dcf.css.map": "/zenbit_test_task/static/css/main.cd7b0dcf.css.map",
+    "main.13797ebd.js.map": "/zenbit_test_task/static/js/main.13797ebd.js.map",
+    "648.109433ca.chunk.js.map": "/zenbit_test_task/static/js/648.109433ca.chunk.js.map",
     "637.feb2eb6e.chunk.js.map": "/zenbit_test_task/static/js/637.feb2eb6e.chunk.js.map",
     "235.ba34bf7c.chunk.js.map": "/zenbit_test_task/static/js/235.ba34bf7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f99cf2f7.css",
-    "static/js/main.557262e7.js"
+    "static/css/main.cd7b0dcf.css",
+    "static/js/main.13797ebd.js"
   ]
 }
