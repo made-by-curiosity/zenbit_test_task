@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkzenbit_test_task=self.webpackChunkzenbit_test_task||[]).push([[637],{637:function(t,e,n){n.r(e);var s=n(834),u=n(329);e.default=function(){return(0,u.jsx)(s.W,{children:"LOGIN PAGE"})}}}]);
+//# sourceMappingURL=637.feb2eb6e.chunk.js.map
