@@ -1,5 +1,7 @@
+import { Container } from 'components/Container/Container';
+
 const SignInPage = () => {
-  return <div>LOGIN PAGE</div>;
+  return <Container>LOGIN PAGE</Container>;
 };
 
 export default SignInPage;

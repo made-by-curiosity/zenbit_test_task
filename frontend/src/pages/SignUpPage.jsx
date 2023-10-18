@@ -1,5 +1,7 @@
+import { Container } from 'components/Container/Container';
+
 const SignUpPage = () => {
-  return <div>SIGN UP PAGE</div>;
+  return <Container>SIGN UP PAGE</Container>;
 };
 
 export default SignUpPage;

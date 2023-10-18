@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
 export const PageHeader = styled.header`
-  padding: 0 30px;
-
   background-color: tomato;
 `;
 
