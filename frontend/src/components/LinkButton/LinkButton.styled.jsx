@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const LinkBtn = styled(Link)`
   width: 160px;
-  padding: 11px;
+  padding: 10px;
 
   display: flex;
   align-items: center;
@@ -12,7 +12,7 @@ export const LinkBtn = styled(Link)`
   font-family: 'Merriweather', serif;
   font-size: 16px;
   font-weight: 700;
-  line-height: 1.38;
+  line-height: 1.375;
 
   color: #b29f7e;
 
