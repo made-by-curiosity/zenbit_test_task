@@ -79,6 +79,22 @@ a {
 
 /* STYLES */
 
+* {
+	&::-webkit-scrollbar {
+		width: 10px;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background: linear-gradient(90deg,
+				rgba(0, 0, 0, 0.6) 0%,
+				rgba(0, 0, 0, 0.6) 30%,
+				rgba(0, 0, 0, 0.6) 50%,
+				rgba(0, 0, 0, 0.6) 70%,
+				rgba(0, 0, 0, 0.6) 100%);
+		border-radius: 12px;
+	}
+}
+
 body {
 	font-family: 'Lato', sans-serif;
 }

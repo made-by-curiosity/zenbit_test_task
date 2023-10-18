@@ -1,7 +1,11 @@
-import { Container } from 'components/Container/Container';
+import { HeroSection } from 'components/HeroSection/HeroSection';
 
 const HomePage = () => {
-  return <Container>HOME PAGE</Container>;
+  return (
+    <>
+      <HeroSection />
+    </>
+  );
 };
 
 export default HomePage;

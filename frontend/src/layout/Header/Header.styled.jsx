@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 
 export const PageHeader = styled.header`
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
   height: 80px;
   padding: 18px 0;
 

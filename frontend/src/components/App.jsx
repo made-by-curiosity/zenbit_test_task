@@ -2,7 +2,6 @@ import { lazy } from 'react';
 import { Route, Routes, Navigate } from 'react-router-dom';
 
 import { Layout } from 'layout/Layout/Layout';
-
 import { Loading } from 'components/Loading/Loading';
 
 const HomePage = lazy(() => import('../pages/HomePage'));
