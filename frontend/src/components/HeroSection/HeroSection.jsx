@@ -15,7 +15,7 @@ export const HeroSection = () => {
             The chemical compound is negatively charged. Twhile the mass defect
             is
           </Text>
-          <SecondaryLinkBtn href="#">Get Started</SecondaryLinkBtn>
+          <SecondaryLinkBtn href="#deals-section">Get Started</SecondaryLinkBtn>
         </Hero>
       </Container>
     </BgImg>
