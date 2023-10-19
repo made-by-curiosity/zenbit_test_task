@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Hero = styled.section`
   min-height: 500px;
   height: 100vh;
-  padding-top: 80px;
+  padding: 80px 0;
 
   display: flex;
   flex-direction: column;
@@ -24,6 +24,7 @@ export const Title = styled.h1`
 `;
 
 export const Text = styled.p`
+  width: 822px;
   margin-bottom: 30px;
 
   text-align: center;
