@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkzenbit_test_task=self.webpackChunkzenbit_test_task||[]).push([[235],{4235:function(t,e,n){n.r(e);var s=n(5834),u=n(3329);e.default=function(){return(0,u.jsx)(s.W,{children:"SIGN UP PAGE"})}}}]);
+//# sourceMappingURL=235.6a5c2f09.chunk.js.map
