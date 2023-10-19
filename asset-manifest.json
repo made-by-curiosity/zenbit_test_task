@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/zenbit_test_task/static/css/main.ff70d51e.css",
-    "main.js": "/zenbit_test_task/static/js/main.2164d5ce.js",
-    "static/js/429.e11072ff.chunk.js": "/zenbit_test_task/static/js/429.e11072ff.chunk.js",
+    "main.js": "/zenbit_test_task/static/js/main.5e7a6f84.js",
+    "static/js/429.01d8b352.chunk.js": "/zenbit_test_task/static/js/429.01d8b352.chunk.js",
     "static/js/294.1ad11f0b.chunk.js": "/zenbit_test_task/static/js/294.1ad11f0b.chunk.js",
     "static/js/951.8f8a841e.chunk.js": "/zenbit_test_task/static/js/951.8f8a841e.chunk.js",
     "static/media/auth_bg_img.png": "/zenbit_test_task/static/media/auth_bg_img.a85cf4511d3b8fd833fa.png",
@@ -13,13 +13,13 @@
     "static/media/Lato-Bold.ttf": "/zenbit_test_task/static/media/Lato-Bold.636be8de934918e38ed9.ttf",
     "index.html": "/zenbit_test_task/index.html",
     "main.ff70d51e.css.map": "/zenbit_test_task/static/css/main.ff70d51e.css.map",
-    "main.2164d5ce.js.map": "/zenbit_test_task/static/js/main.2164d5ce.js.map",
-    "429.e11072ff.chunk.js.map": "/zenbit_test_task/static/js/429.e11072ff.chunk.js.map",
+    "main.5e7a6f84.js.map": "/zenbit_test_task/static/js/main.5e7a6f84.js.map",
+    "429.01d8b352.chunk.js.map": "/zenbit_test_task/static/js/429.01d8b352.chunk.js.map",
     "294.1ad11f0b.chunk.js.map": "/zenbit_test_task/static/js/294.1ad11f0b.chunk.js.map",
     "951.8f8a841e.chunk.js.map": "/zenbit_test_task/static/js/951.8f8a841e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff70d51e.css",
-    "static/js/main.2164d5ce.js"
+    "static/js/main.5e7a6f84.js"
   ]
 }
