@@ -10,7 +10,7 @@ export const CardLink = styled.a`
   justify-content: flex-end;
 
   background-color: rgba(211, 211, 211, 0.5);
-  background-image: url(${props => props.bg_img});
+  background-image: url(${props => props.$bg_img});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

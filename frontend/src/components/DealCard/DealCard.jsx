@@ -1,3 +1,4 @@
+import { beautifyPrice } from 'utils/helpers/beautifyPrice';
 import {
   CardInfoContainer,
   CardInfoItem,
@@ -14,14 +15,14 @@ export const DealCard = ({ dealInfo }) => {
       href="https://www.linkedin.com/in/vadym-agienko"
       target="_blank"
       rel="noreferrer"
-      bg_img={img}
+      $bg_img={img}
     >
       <CardTitle>{building}</CardTitle>
       <CardInfoContainer>
-        <CardInfoItem>{dhs} Dhs</CardInfoItem>
+        <CardInfoItem>{beautifyPrice(dhs)} Dhs</CardInfoItem>
         <CardInfoItem>Yield {profitability}</CardInfoItem>
         <CardInfoItem>Sold {sold}</CardInfoItem>
-        <CardInfoItem>Ticket - {ticket} Dhs</CardInfoItem>
+        <CardInfoItem>Ticket - {beautifyPrice(ticket)} Dhs</CardInfoItem>
         <CardInfoItem>Days left {daysLeft}</CardInfoItem>
       </CardInfoContainer>
     </CardLink>
