@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/zenbit_test_task/static/css/main.ff70d51e.css",
-    "main.js": "/zenbit_test_task/static/js/main.5e7a6f84.js",
-    "static/js/429.01d8b352.chunk.js": "/zenbit_test_task/static/js/429.01d8b352.chunk.js",
-    "static/js/294.1ad11f0b.chunk.js": "/zenbit_test_task/static/js/294.1ad11f0b.chunk.js",
-    "static/js/951.8f8a841e.chunk.js": "/zenbit_test_task/static/js/951.8f8a841e.chunk.js",
+    "main.js": "/zenbit_test_task/static/js/main.583a9db5.js",
+    "static/js/429.025d6e76.chunk.js": "/zenbit_test_task/static/js/429.025d6e76.chunk.js",
+    "static/js/4.da51e4e7.chunk.js": "/zenbit_test_task/static/js/4.da51e4e7.chunk.js",
+    "static/js/951.312bc220.chunk.js": "/zenbit_test_task/static/js/951.312bc220.chunk.js",
+    "static/js/586.f3cedd01.chunk.js": "/zenbit_test_task/static/js/586.f3cedd01.chunk.js",
     "static/media/auth_bg_img.png": "/zenbit_test_task/static/media/auth_bg_img.a85cf4511d3b8fd833fa.png",
     "static/media/hero_bg.png": "/zenbit_test_task/static/media/hero_bg.661866f1813f90513b60.png",
     "static/media/Lato-Semibold.ttf": "/zenbit_test_task/static/media/Lato-Semibold.637ae3cbe5f4341bfb7b.ttf",
@@ -13,13 +14,14 @@
     "static/media/Lato-Bold.ttf": "/zenbit_test_task/static/media/Lato-Bold.636be8de934918e38ed9.ttf",
     "index.html": "/zenbit_test_task/index.html",
     "main.ff70d51e.css.map": "/zenbit_test_task/static/css/main.ff70d51e.css.map",
-    "main.5e7a6f84.js.map": "/zenbit_test_task/static/js/main.5e7a6f84.js.map",
-    "429.01d8b352.chunk.js.map": "/zenbit_test_task/static/js/429.01d8b352.chunk.js.map",
-    "294.1ad11f0b.chunk.js.map": "/zenbit_test_task/static/js/294.1ad11f0b.chunk.js.map",
-    "951.8f8a841e.chunk.js.map": "/zenbit_test_task/static/js/951.8f8a841e.chunk.js.map"
+    "main.583a9db5.js.map": "/zenbit_test_task/static/js/main.583a9db5.js.map",
+    "429.025d6e76.chunk.js.map": "/zenbit_test_task/static/js/429.025d6e76.chunk.js.map",
+    "4.da51e4e7.chunk.js.map": "/zenbit_test_task/static/js/4.da51e4e7.chunk.js.map",
+    "951.312bc220.chunk.js.map": "/zenbit_test_task/static/js/951.312bc220.chunk.js.map",
+    "586.f3cedd01.chunk.js.map": "/zenbit_test_task/static/js/586.f3cedd01.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff70d51e.css",
-    "static/js/main.5e7a6f84.js"
+    "static/js/main.583a9db5.js"
   ]
 }
