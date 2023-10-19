@@ -7,7 +7,7 @@ export const deals = [
     dhs: 6500000,
     profitability: '9.25%',
     daysLeft: 150,
-    img: '',
+    img: 'https://res.cloudinary.com/dpbmdhjuq/image/upload/v1697713139/zenbit%20test%20task/c0zsjixbxw6vmpwfucpe.png',
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const deals = [
     dhs: 6500000,
     profitability: '9.25%',
     daysLeft: 150,
-    img: '',
+    img: 'https://res.cloudinary.com/dpbmdhjuq/image/upload/v1697713139/zenbit%20test%20task/ztfcmcpgohbfcimhpjuu.png',
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const deals = [
     dhs: 6500000,
     profitability: '9.25%',
     daysLeft: 150,
-    img: '',
+    img: 'https://res.cloudinary.com/dpbmdhjuq/image/upload/v1697713139/zenbit%20test%20task/d9htyccqzgzef8otjkqg.png',
   },
   {
     id: 4,
@@ -37,6 +37,6 @@ export const deals = [
     dhs: 6500000,
     profitability: '9.25%',
     daysLeft: 150,
-    img: '',
+    img: 'https://res.cloudinary.com/dpbmdhjuq/image/upload/v1697713139/zenbit%20test%20task/b03ezndvufdc4kfsrjva.png',
   },
 ];

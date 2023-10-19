@@ -13,10 +13,10 @@ export const Button = styled.button`
   font-weight: 700;
   line-height: 1.375;
 
-  color: #ffffff;
+  color: #ba2211;
 
   border-radius: 5px;
-  border: 1px solid #ffffff;
+  border: 1px solid #ba2211;
 
   transition: opacity 200ms ease-out;
 

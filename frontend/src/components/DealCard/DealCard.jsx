@@ -14,6 +14,7 @@ export const DealCard = ({ dealInfo }) => {
       href="https://www.linkedin.com/in/vadym-agienko"
       target="_blank"
       rel="noreferrer"
+      bg_img={img}
     >
       <CardTitle>{building}</CardTitle>
       <CardInfoContainer>
