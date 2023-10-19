@@ -5,6 +5,7 @@ import { Navbar } from 'layout/Navbar/Navbar';
 import { Loading } from 'components/Loading/Loading';
 import { Header } from 'layout/Header/Header';
 import { LogoutButton } from 'components/LogoutButton/LogoutButton';
+import { Logo } from './Layout.styled';
 
 export const Layout = () => {
   const location = useLocation();
@@ -19,6 +20,7 @@ export const Layout = () => {
   return (
     <>
       <Header>
+        <Logo to="/">LOGO</Logo>
         {isVisible && (isLoggedIn ? <LogoutButton /> : <Navbar />)}
       </Header>
 

@@ -6,9 +6,6 @@ export const Navbar = () => {
     <nav>
       <NavList>
         <li>
-          <LinkButton text="Home" to="/" />
-        </li>
-        <li>
           <LinkButton text="Log In" to="login" />
         </li>
         <li>

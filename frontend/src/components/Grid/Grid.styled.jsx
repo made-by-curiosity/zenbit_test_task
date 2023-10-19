@@ -4,5 +4,6 @@ export const CardsList = styled.ul`
   display: flex;
 
   flex-wrap: wrap;
-  gap: 20px;
+  justify-content: space-between;
+  row-gap: 20px;
 `;
