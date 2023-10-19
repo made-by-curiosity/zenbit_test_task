@@ -16,7 +16,6 @@ import {
 
 import { MainButton } from 'components/MainButton/MainButton';
 import { ValidationMessage } from 'components/ValidationMessage/ValidationMessage';
-import { useEffect } from 'react';
 
 const emailRegex = /^\w+(\.?\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
 
