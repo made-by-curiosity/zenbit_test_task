@@ -15,12 +15,16 @@ export const Button = styled.button`
 
   transition: opacity 200ms ease-out;
 
-  &:hover,
-  &:focus {
+  &:hover:not([disabled]),
+  &:focus:not([disabled]) {
     opacity: 0.7;
   }
 
   &:active {
     opacity: 0.9;
+  }
+
+  &:disabled {
+    opacity: 0.4;
   }
 `;

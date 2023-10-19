@@ -1,7 +1,8 @@
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-export const FormWrapper = styled.div`
+import { Link } from 'react-router-dom';
+
+export const FormWrapper = styled.form`
   width: 350px;
 
   display: flex;
@@ -28,6 +29,8 @@ export const InputsWrapper = styled.div`
 `;
 
 export const LabelWrapper = styled.label`
+  position: relative;
+
   display: flex;
   flex-direction: column;
   gap: 3px;
@@ -53,6 +56,8 @@ export const Input = styled.input`
   background: #e0e0e0;
 
   cursor: pointer;
+
+  border-color: ${props => (props.$isValid ? '#e0e0e0' : 'red')};
 `;
 
 export const PasswordLink = styled(Link)`
