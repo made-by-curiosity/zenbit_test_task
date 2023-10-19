@@ -43,11 +43,11 @@ export const LoginForm = () => {
     register,
     handleSubmit,
     reset,
-    formState: { errors, isValid },
+    formState: { errors },
   } = useForm({
     defaultValues: defaultValues,
     resolver: yupResolver(schema),
-    mode: 'onBlur',
+    mode: 'onChange',
   });
 
   const onSubmit = data => {
@@ -66,6 +66,7 @@ export const LoginForm = () => {
             placeholder="Email"
             {...register('email')}
             $isValid={!errors.email}
+            autoFocus
           />
           {errors.email && (
             <ValidationMessage role="alert">
@@ -89,7 +90,7 @@ export const LoginForm = () => {
         </LabelWrapper>
       </InputsWrapper>
       <PasswordLink to="/signup">Forgot password?</PasswordLink>
-      <MainButton text="Sign In" type="submit" disabled={!isValid} />
+      <MainButton text="Sign In" type="submit" />
       <NoAccountText>
         Don’t have account? <AuthLink to="/signup">Sign Up</AuthLink>
       </NoAccountText>

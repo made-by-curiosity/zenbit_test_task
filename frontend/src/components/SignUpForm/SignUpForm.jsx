@@ -1,3 +1,7 @@
+import { useForm } from 'react-hook-form';
+import { yupResolver } from '@hookform/resolvers/yup';
+import * as yup from 'yup';
+
 import {
   AuthLink,
   FormTitle,
@@ -7,28 +11,107 @@ import {
   LabelWrapper,
   NoAccountText,
 } from 'components/LoginForm/LoginForm.styled';
-import { PasswordInputsWrapper } from './SignUpForm.styled';
+import { PasswordInputsWrapper, Required } from './SignUpForm.styled';
+
 import { MainButton } from 'components/MainButton/MainButton';
+import { ValidationMessage } from 'components/ValidationMessage/ValidationMessage';
+
+const emailRegex = /^\w+(\.?\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+
+const defaultValues = {
+  name: '',
+  email: '',
+  password: '',
+};
+
+const schema = yup
+  .object({
+    name: yup.string().required('Name is required'),
+    email: yup
+      .string()
+      .matches(emailRegex, 'Invalid email format')
+      .required('Email is required'),
+    password: yup
+      .string()
+      .min(6, 'Must be at least 6 characters')
+      .max(16, `Can't be longer than 16 characters`)
+      .required('Password is required'),
+  })
+  .required();
 
 export const SignUpForm = () => {
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors, isValid },
+  } = useForm({
+    defaultValues: defaultValues,
+    resolver: yupResolver(schema),
+    mode: 'onChange',
+  });
+
+  const onSubmit = data => {
+    console.log(data);
+    reset();
+  };
+
   return (
-    <FormWrapper>
+    <FormWrapper onSubmit={handleSubmit(onSubmit)}>
       <FormTitle>Sign Up</FormTitle>
       <PasswordInputsWrapper>
         <LabelWrapper>
-          <InputLabel>Name</InputLabel>
-          <Input type="text" placeholder="Name" />
+          <InputLabel>
+            Name <Required>*</Required>
+          </InputLabel>
+          <Input
+            type="text"
+            placeholder="Name"
+            {...register('name')}
+            $isValid={!errors.name}
+            autoFocus
+          />
+          {errors.name && (
+            <ValidationMessage role="alert">
+              {errors.name.message}
+            </ValidationMessage>
+          )}
         </LabelWrapper>
         <LabelWrapper>
-          <InputLabel>Email</InputLabel>
-          <Input type="text" placeholder="Email" />
+          <InputLabel>
+            Email <Required>*</Required>
+          </InputLabel>
+          <Input
+            type="text"
+            placeholder="Email"
+            {...register('email')}
+            $isValid={!errors.email}
+          />
+          {errors.email && (
+            <ValidationMessage role="alert">
+              {errors.email.message}
+            </ValidationMessage>
+          )}
         </LabelWrapper>
         <LabelWrapper>
-          <InputLabel>Password</InputLabel>
-          <Input type="text" placeholder="Password" />
+          <InputLabel>
+            Password <Required>*</Required>
+          </InputLabel>
+
+          <Input
+            type="password"
+            placeholder="Password"
+            {...register('password')}
+            $isValid={!errors.password}
+          />
+          {errors.password && (
+            <ValidationMessage role="alert">
+              {errors.password.message}
+            </ValidationMessage>
+          )}
         </LabelWrapper>
       </PasswordInputsWrapper>
-      <MainButton text="Sign Up" type="submit" />
+      <MainButton text="Sign Up" type="submit" disabled={!isValid} />
       <NoAccountText>
         Already have an account? <AuthLink to="/login">Log In</AuthLink>
       </NoAccountText>

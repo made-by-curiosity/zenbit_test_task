@@ -4,3 +4,7 @@ import styled from 'styled-components';
 export const PasswordInputsWrapper = styled(InputsWrapper)`
   margin-bottom: 30px;
 `;
+
+export const Required = styled.span`
+  color: red;
+`;
