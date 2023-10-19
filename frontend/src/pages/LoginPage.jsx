@@ -1,5 +1,6 @@
 import { AuthBgImg } from 'components/AuthBgImg/AuthBgImg';
 import { AuthContainer } from 'components/AuthContainer/AuthContainer';
+import { LoginForm } from 'components/LoginForm/LoginForm';
 import { Section } from 'components/Section/Section';
 
 const LoginPage = () => {
@@ -7,7 +8,7 @@ const LoginPage = () => {
     <Section>
       <AuthBgImg />
       <AuthContainer>
-        <div>form</div>
+        <LoginForm />
       </AuthContainer>
     </Section>
   );

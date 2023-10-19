@@ -52,7 +52,6 @@ export const CardInfoContainer = styled.div`
 export const CardInfoItem = styled.span`
   width: 170px;
 
-  font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.22;

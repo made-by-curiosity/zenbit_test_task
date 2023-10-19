@@ -28,7 +28,6 @@ export const Text = styled.p`
   margin-bottom: 30px;
 
   text-align: center;
-  font-family: 'Lato', sans-serif;
   font-size: 24px;
   line-height: 1.33;
   letter-spacing: -0.48px;
