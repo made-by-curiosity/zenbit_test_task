@@ -30,7 +30,11 @@ const schema = yup
       .string()
       .matches(emailRegex, 'Invalid email format')
       .required('Email is required'),
-    password: yup.string().required('Password is required'),
+    password: yup
+      .string()
+      .min(6, 'Must be at least 6 characters')
+      .max(16, `Can't be longer than 16 characters`)
+      .required('Password is required'),
   })
   .required();
 
