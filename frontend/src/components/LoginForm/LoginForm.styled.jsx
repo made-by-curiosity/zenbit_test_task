@@ -3,10 +3,14 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const FormWrapper = styled.form`
-  width: 350px;
+  width: 100%;
 
   display: flex;
   flex-direction: column;
+
+  @media screen and (min-width: 768px) {
+    width: 350px;
+  }
 `;
 
 export const FormTitle = styled.p`
@@ -48,7 +52,8 @@ export const InputLabel = styled.span`
 `;
 
 export const Input = styled.input`
-  width: 350px;
+  width: 100%;
+
   padding: 14px 20px 12px 20px;
 
   border-radius: 5px;
@@ -58,6 +63,10 @@ export const Input = styled.input`
   cursor: pointer;
 
   border-color: ${props => (props.$isValid ? '#e0e0e0' : 'red')};
+
+  @media screen and (min-width: 768px) {
+    width: 350px;
+  }
 `;
 
 export const PasswordLink = styled(Link)`

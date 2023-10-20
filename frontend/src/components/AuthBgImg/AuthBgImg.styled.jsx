@@ -4,7 +4,6 @@ import bg_img from 'assets/images/auth_bg_img.png';
 
 export const Background = styled.div`
   min-height: 500px;
-  width: 890px;
 
   height: calc(100vh - 80px);
 
@@ -13,4 +12,8 @@ export const Background = styled.div`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  @media screen and (min-width: 768px) {
+    width: 890px;
+  }
 `;

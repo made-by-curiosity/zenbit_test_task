@@ -9,7 +9,7 @@ export const Button = styled.button`
   gap: 5px;
 
   font-family: 'Merriweather', serif;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 700;
   line-height: 1.375;
 
@@ -30,7 +30,16 @@ export const Button = styled.button`
   }
 
   & > svg {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+
+    & > svg {
+      width: 20px;
+      height: 20px;
+    }
   }
 `;
