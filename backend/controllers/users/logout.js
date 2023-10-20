@@ -1,5 +1,5 @@
 const { Unauthorized } = require('http-errors');
-const { User } = require('../../models/user');
+const { User } = require('../../models/User');
 
 const logout = async (req, res, next) => {
   const { _id } = req.user;

@@ -1,7 +1,8 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://empty.com';
-const ADVERTS = '/adverts';
+const BASE_URL = 'http://localhost:8080/api';
+const DEALS = '/deals';
+const ALL_DEALS = `${DEALS}/all`;
 const USERS = '/users';
 const SIGN_UP = `${USERS}/signup`;
 const LOG_IN = `${USERS}/login`;
@@ -44,10 +45,9 @@ export const getUserInfo = async token => {
   return res.data;
 };
 
-// adverts
+// deals
 
-export const getAllAdverts = async () => {
-  const res = await axios.get(ADVERTS);
-
-  return res.data;
+export const getAllDeals = async () => {
+  const res = await axios.get(ALL_DEALS);
+  return res.data.deals;
 };
