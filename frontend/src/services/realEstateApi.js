@@ -4,7 +4,7 @@ const BASE_URL = 'http://localhost:8080/api';
 const DEALS = '/deals';
 const ALL_DEALS = `${DEALS}/all`;
 const USERS = '/users';
-const SIGN_UP = `${USERS}/signup`;
+const SIGN_UP = `${USERS}/register`;
 const LOG_IN = `${USERS}/login`;
 const LOG_OUT = `${USERS}/logout`;
 const CURRENT_USER = `${USERS}/current`;
@@ -33,14 +33,14 @@ export const logInUser = async credentials => {
   return res.data;
 };
 
-export const logOutUser = async token => {
-  const res = await axios.post(LOG_OUT, token);
+export const logOutUser = async () => {
+  const res = await axios.post(LOG_OUT);
 
   return res.data;
 };
 
-export const getUserInfo = async token => {
-  const res = await axios.get(CURRENT_USER, token);
+export const getUserInfo = async () => {
+  const res = await axios.get(CURRENT_USER);
 
   return res.data;
 };

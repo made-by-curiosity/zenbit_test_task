@@ -16,9 +16,6 @@ const authSlice = createSlice({
       state.user = {
         name: null,
         email: null,
-        userParams: null,
-        avatarUrls: null,
-        bmr: null,
       };
       state.token = null;
       state.isRefreshing = false;
@@ -57,9 +54,6 @@ const authSlice = createSlice({
       state.user = {
         name: null,
         email: null,
-        userParams: null,
-        avatarUrls: null,
-        bmr: null,
       };
       state.token = null;
       state.isRefreshing = false;
@@ -73,7 +67,7 @@ const authSlice = createSlice({
       state.error = null;
     });
     builder.addCase(refreshUser.fulfilled, (state, action) => {
-      state.user = action.payload;
+      state.user = action.payload.user;
       state.isRefreshing = false;
     });
     builder.addCase(refreshUser.rejected, (state, action) => {

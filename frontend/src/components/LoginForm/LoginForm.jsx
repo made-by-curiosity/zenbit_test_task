@@ -16,6 +16,8 @@ import {
 
 import { MainButton } from 'components/MainButton/MainButton';
 import { ValidationMessage } from 'components/ValidationMessage/ValidationMessage';
+import { useDispatch } from 'react-redux';
+import { logIn } from 'redux/auth/operations';
 
 const emailRegex = /^\w+(\.?\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
 
@@ -50,8 +52,10 @@ export const LoginForm = () => {
     mode: 'onChange',
   });
 
+  const dispatch = useDispatch();
+
   const onSubmit = data => {
-    console.log(data);
+    dispatch(logIn(data));
     reset();
   };
 

@@ -15,6 +15,8 @@ import { PasswordInputsWrapper, Required } from './SignUpForm.styled';
 
 import { MainButton } from 'components/MainButton/MainButton';
 import { ValidationMessage } from 'components/ValidationMessage/ValidationMessage';
+import { useDispatch } from 'react-redux';
+import { signUp } from 'redux/auth/operations';
 
 const emailRegex = /^\w+(\.?\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
 
@@ -51,8 +53,10 @@ export const SignUpForm = () => {
     mode: 'onChange',
   });
 
+  const dispatch = useDispatch();
+
   const onSubmit = data => {
-    console.log(data);
+    dispatch(signUp(data));
     reset();
   };
 

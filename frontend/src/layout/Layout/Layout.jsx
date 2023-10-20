@@ -6,6 +6,8 @@ import { Loading } from 'components/Loading/Loading';
 import { Header } from 'layout/Header/Header';
 import { LogoutButton } from 'components/LogoutButton/LogoutButton';
 import { Logo } from './Layout.styled';
+import { useSelector } from 'react-redux';
+import { selectIsLoggedIn } from 'redux/auth/selectors';
 
 export const Layout = () => {
   const location = useLocation();
@@ -15,7 +17,7 @@ export const Layout = () => {
 
   const isVisible = !isLoginPage && !isSignUpPage;
 
-  const isLoggedIn = false;
+  const isLoggedIn = useSelector(selectIsLoggedIn);
 
   return (
     <>
