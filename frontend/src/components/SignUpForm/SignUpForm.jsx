@@ -75,6 +75,7 @@ export const SignUpForm = () => {
             {...register('name')}
             $isValid={!errors.name}
             autoFocus
+            autoComplete="off"
           />
           {errors.name && (
             <ValidationMessage role="alert">
@@ -91,6 +92,7 @@ export const SignUpForm = () => {
             placeholder="Email"
             {...register('email')}
             $isValid={!errors.email}
+            autoComplete="off"
           />
           {errors.email && (
             <ValidationMessage role="alert">

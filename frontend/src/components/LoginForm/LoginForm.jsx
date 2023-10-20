@@ -72,6 +72,7 @@ export const LoginForm = () => {
             {...register('email')}
             $isValid={!errors.email}
             autoFocus
+            autoComplete="off"
           />
           {errors.email && (
             <ValidationMessage role="alert">
@@ -86,6 +87,7 @@ export const LoginForm = () => {
             placeholder="Password"
             {...register('password')}
             $isValid={!errors.password}
+            autoComplete="off"
           />
           {errors.password && (
             <ValidationMessage role="alert">
