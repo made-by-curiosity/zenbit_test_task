@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zenbit_test_task/static/css/main.ff70d51e.css",
-    "main.js": "/zenbit_test_task/static/js/main.c7254b92.js",
+    "main.js": "/zenbit_test_task/static/js/main.eb946972.js",
     "static/js/625.9953f1e2.chunk.js": "/zenbit_test_task/static/js/625.9953f1e2.chunk.js",
     "static/js/294.38f707f8.chunk.js": "/zenbit_test_task/static/js/294.38f707f8.chunk.js",
     "static/js/951.25daf051.chunk.js": "/zenbit_test_task/static/js/951.25daf051.chunk.js",
@@ -14,7 +14,7 @@
     "static/media/Lato-Bold.ttf": "/zenbit_test_task/static/media/Lato-Bold.636be8de934918e38ed9.ttf",
     "index.html": "/zenbit_test_task/index.html",
     "main.ff70d51e.css.map": "/zenbit_test_task/static/css/main.ff70d51e.css.map",
-    "main.c7254b92.js.map": "/zenbit_test_task/static/js/main.c7254b92.js.map",
+    "main.eb946972.js.map": "/zenbit_test_task/static/js/main.eb946972.js.map",
     "625.9953f1e2.chunk.js.map": "/zenbit_test_task/static/js/625.9953f1e2.chunk.js.map",
     "294.38f707f8.chunk.js.map": "/zenbit_test_task/static/js/294.38f707f8.chunk.js.map",
     "951.25daf051.chunk.js.map": "/zenbit_test_task/static/js/951.25daf051.chunk.js.map",
@@ -22,6 +22,6 @@
   },
   "entrypoints": [
     "static/css/main.ff70d51e.css",
-    "static/js/main.c7254b92.js"
+    "static/js/main.eb946972.js"
   ]
 }
