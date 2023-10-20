@@ -5,7 +5,7 @@ const bcrypt = require('bcryptjs');
 
 const register = async (req, res, next) => {
   const { name, email, password } = req.body;
-  const user = await User.findOne({ email });
+  const user = await User.findOne({ where: { email } });
 
   if (user) {
     throw new Conflict(`User with email ${email} already exist`);
