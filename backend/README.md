@@ -4,4 +4,4 @@ Backend:
 
 1. Node.js
 2. Express.js
-3. MySQL
+3. MySQL/Sequelize
