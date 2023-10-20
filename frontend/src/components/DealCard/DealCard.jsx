@@ -1,10 +1,13 @@
-import { beautifyPrice } from 'utils/helpers/beautifyPrice';
+import PropTypes from 'prop-types';
+
 import {
   CardInfoContainer,
   CardInfoItem,
   CardLink,
   CardTitle,
 } from './DealCard.styled';
+
+import { beautifyPrice } from 'utils/helpers/beautifyPrice';
 
 export const DealCard = ({ dealInfo }) => {
   const { building, sold, ticket, dhs, profitability, daysLeft, img } =
@@ -27,4 +30,15 @@ export const DealCard = ({ dealInfo }) => {
       </CardInfoContainer>
     </CardLink>
   );
+};
+
+DealCard.propTypes = {
+  id: PropTypes.number,
+  building: PropTypes.string,
+  sold: PropTypes.string,
+  ticket: PropTypes.number,
+  dhs: PropTypes.number,
+  profitability: PropTypes.string,
+  daysLeft: PropTypes.number,
+  img: PropTypes.string,
 };

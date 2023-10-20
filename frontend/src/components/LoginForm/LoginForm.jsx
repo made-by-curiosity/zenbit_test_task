@@ -1,6 +1,7 @@
 import { useForm } from 'react-hook-form';
-import { yupResolver } from '@hookform/resolvers/yup';
+import { useDispatch } from 'react-redux';
 import * as yup from 'yup';
+import { yupResolver } from '@hookform/resolvers/yup';
 
 import {
   AuthLink,
@@ -16,7 +17,7 @@ import {
 
 import { MainButton } from 'components/MainButton/MainButton';
 import { ValidationMessage } from 'components/ValidationMessage/ValidationMessage';
-import { useDispatch } from 'react-redux';
+
 import { logIn } from 'redux/auth/operations';
 
 const emailRegex = /^\w+(\.?\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;

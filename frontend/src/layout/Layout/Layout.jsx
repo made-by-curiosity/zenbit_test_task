@@ -1,12 +1,15 @@
 import { Suspense } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
-
-import { Navbar } from 'layout/Navbar/Navbar';
-import { Loading } from 'components/Loading/Loading';
-import { Header } from 'layout/Header/Header';
-import { LogoutButton } from 'components/LogoutButton/LogoutButton';
-import { Logo } from './Layout.styled';
 import { useSelector } from 'react-redux';
+
+import { Logo } from './Layout.styled';
+
+import { Header } from 'layout/Header/Header';
+import { Navbar } from 'layout/Navbar/Navbar';
+
+import { Loading } from 'components/Loading/Loading';
+import { LogoutButton } from 'components/LogoutButton/LogoutButton';
+
 import { selectIsLoggedIn } from 'redux/auth/selectors';
 
 export const Layout = () => {

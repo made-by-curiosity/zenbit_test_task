@@ -1,5 +1,6 @@
-import { BgImg } from 'components/BgImg/BgImg';
 import { Hero, Text, Title } from './HeroSection.styled';
+
+import { BgImg } from 'components/BgImg/BgImg';
 import { Container } from 'components/Container/Container';
 import { SecondaryLinkBtn } from 'components/SecondaryLinkBtn/SecondaryLinkBtn';
 

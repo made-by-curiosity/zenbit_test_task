@@ -1,4 +1,5 @@
 import { NavList } from './Navbar.styled';
+
 import { LinkButton } from 'components/LinkButton/LinkButton';
 
 export const Navbar = () => {

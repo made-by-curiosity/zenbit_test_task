@@ -1,7 +1,9 @@
 import { useDispatch } from 'react-redux';
+
 import { Button } from './LogoutButton.styled';
 
 import { FiLogOut } from 'react-icons/fi';
+
 import { logOut } from 'redux/auth/operations';
 
 export const LogoutButton = () => {
