@@ -2,11 +2,15 @@ import styled from 'styled-components';
 
 export const LoadingWrapper = styled.div`
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 
   z-index: 999;
   background-color: rgba(10, 10, 10, 0.495);
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 `;
 
 export const LoadingCont = styled.div`
@@ -32,7 +36,7 @@ export const NotificationWrapper = styled.div`
 
   border-radius: 12px;
   border: 1px solid rgba(239, 237, 232, 0.2);
-  background-color: rgb(70, 70, 70);
+  background-color: rgb(200, 200, 200);
 
   text-align: center;
 
