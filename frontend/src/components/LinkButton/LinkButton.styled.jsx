@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const LinkBtn = styled(Link)`
-  width: 160px;
+  width: 100px;
   padding: 10px;
 
   display: flex;
@@ -10,7 +10,7 @@ export const LinkBtn = styled(Link)`
   justify-content: center;
 
   font-family: 'Merriweather', serif;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 700;
   line-height: 1.375;
 
@@ -35,5 +35,12 @@ export const LinkBtn = styled(Link)`
 
   &:active {
     opacity: 0.4;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 160px;
+    padding: 10px;
+
+    font-size: 16px;
   }
 `;

@@ -8,8 +8,12 @@ export const Logo = styled(Link)`
   align-self: center;
 
   font-family: 'Merriweather', serif;
-  font-size: 28px;
+  font-size: 16px;
   line-height: 1.21;
 
   color: #fff;
+
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+  }
 `;

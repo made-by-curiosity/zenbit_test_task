@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const CardLink = styled.a`
-  width: 630px;
-  height: 400px;
+  width: 100%;
+  height: 300px;
   padding: 0 0 20px 14px;
 
   display: flex;
@@ -27,6 +27,14 @@ export const CardLink = styled.a`
 
   &:active {
     opacity: 0.9;
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 400px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 630px;
   }
 `;
 

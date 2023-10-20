@@ -16,21 +16,42 @@ export const Title = styled.h1`
 
   text-align: center;
   font-family: 'Merriweather', serif;
-  font-size: 64px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 1.25;
 
   color: #fff;
+
+  @media screen and (min-width: 768px) {
+    font-size: 50px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 64px;
+  }
 `;
 
 export const Text = styled.p`
-  width: 822px;
+  width: 300px;
   margin-bottom: 30px;
 
   text-align: center;
-  font-size: 24px;
+  font-size: 12px;
   line-height: 1.33;
-  letter-spacing: -0.48px;
 
   color: #fff;
+
+  @media screen and (min-width: 768px) {
+    width: 600px;
+    margin-bottom: 30px;
+
+    font-size: 18px;
+    letter-spacing: -0.48px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 822px;
+    margin-bottom: 30px;
+
+    font-size: 24px;
+  }
 `;
